@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        #formED {
+            width: 30rem;
+            background-color: gainsboro;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="formED">
+        <div class="form-group">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Correo</label>
+            <input type="email" name="correo" id="correo" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Contraseña</label>
+            <input type="password" name="contrasena" id="contrasena" class="form-control">
+        </div>
+        <div class="form-group text-center">
+            <input type="submit" value="Enviar" class="form-control-lg">
+        </div>
+    </form>
+
+    <script src="js/ValoresDeUnFormulario.js"></script>
+</body>
+
+</html>
