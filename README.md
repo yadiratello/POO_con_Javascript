@@ -1,16 +1,16 @@
-#Programación Orientada a Objetos
-----
+# Programación Orientada a Objetos
+---
 * Es un Paradigma de programación.
 * Es el más usado hoy en día.
 * Aplicable a muchisimos lenguajes de programación.
 
-##Paradigma
+## Paradigma
 ---
 * Es una forma de pensar o actuar, una filosofia.
 * Una serie de patrones o modelos a seguir.
 * Un planteamiento común.
 
-##¿Qué es un Objeto?
+## ¿Qué es un Objeto?
 ----
 * En la POO todo es un objeto.
 * Un objeto es una abstraccion del mundo real.
