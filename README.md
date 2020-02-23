@@ -1,33 +1,28 @@
 # Programación Orientada a Objetos
----
 * Es un Paradigma de programación.
 * Es el más usado hoy en día.
 * Aplicable a muchisimos lenguajes de programación.
 
 ## Paradigma
----
 * Es una forma de pensar o actuar, una filosofia.
 * Una serie de patrones o modelos a seguir.
 * Un planteamiento común.
 
 ## ¿Qué es un Objeto?
-----
 * En la POO todo es un objeto.
 * Un objeto es una abstraccion del mundo real.
 * Es una representación del estado y las acciones que puede realizar algo o alguien. 
 
 ## Atributos
----
 * Caracteristicas del objeto
 * Son modificables y accesibles
 
 ## Metodos
----
+
 * Acciones del objeto
 * Son modificables y accecibles
 
 ## Objetos Literales - Sintaxis
-----
 ```javascript
     const nombreObjeto = {
         atributo : valor,
@@ -47,7 +42,6 @@
 ```
 
 ## Prototipos (Clases)
-----
 * Es la base de toda la programacion.
 * Ya que todo es un objeto, a la vez todo deb de partir de un prototipo
 
@@ -71,7 +65,6 @@ class NombreClase{
 ```
 
 ## this(Scope)
-----
 * A partir de ES6 el alcance del this se limita al objeto declarado.
 * De una forma global, el this seria igual a window.
 
